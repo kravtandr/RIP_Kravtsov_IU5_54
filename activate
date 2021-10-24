@@ -1,0 +1,118 @@
+Script started on Wed Oct 20 17:27:08 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jkravtandr@h76 lab2 % [K[?2004hbbash[?2004l
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ pip install numpy
+bash: pip: command not found
+bash-3.2$ python3 insta[K[K[K[K[Kpip install numpy
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3: can't open file '/Users/kravtandr/rip/lab2/pip': [Errno 2] No such file or directory
+bash-3.2$ python3 -v
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/__init__.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__init__.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/__init__.cpython-39.pyc'
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/codecs.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/codecs.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/codecs.cpython-39.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b80e7d90>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/aliases.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/aliases.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/aliases.cpython-39.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8135370>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b80e7bb0>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/utf_8.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/utf_8.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/utf_8.cpython-39.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b80e7a90>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/latin_1.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/latin_1.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/latin_1.cpython-39.pyc'
+import 'encodings.latin_1' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8135430>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/io.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/io.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/io.cpython-39.pyc'
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/abc.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/abc.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/abc.cpython-39.pyc'
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b81358e0>
+import 'io' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8135610>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/site.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/site.cpython-39.pyc'
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/os.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/os.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/os.cpython-39.pyc'
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/stat.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/stat.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/stat.cpython-39.pyc'
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b816d190>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_collections_abc.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_collections_abc.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_collections_abc.cpython-39.pyc'
+import '_collections_abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b816d220>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/posixpath.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/posixpath.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/posixpath.cpython-39.pyc'
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/genericpath.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/genericpath.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/genericpath.cpython-39.pyc'
+import 'genericpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8195850>
+import 'posixpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b816d940>
+import 'os' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8152880>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_sitebuiltins.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_sitebuiltins.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_sitebuiltins.cpython-39.pyc'
+import '_sitebuiltins' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8165d90>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_bootlocale.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_bootlocale.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/_bootlocale.cpython-39.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import '_bootlocale' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8195d00>
+import 'site' # <_frozen_importlib_external.SourceFileLoader object at 0x7f82b8135910>
+Python 3.9.5 (v3.9.5:0a7dcbdb13, May  3 2021, 13:17:02) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+# extension module 'readline' loaded from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload/readline.cpython-39-darwin.so'
+# extension module 'readline' executed from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload/readline.cpython-39-darwin.so'
+import 'readline' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f82b8165dc0>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+# /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/rlcompleter.cpython-39.pyc matches /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/rlcompleter.py
+# code object from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/__pycache__/rlcompleter.cpython-39.pyc'
+import 'rlcompleter' # <_frozen_importlib_external.SourceFileLoader object at 0x7f829804cca0>
+>>> pip install n[Knu,[Kmpy
+  File "<stdin>", line 1
+    pip install numpy
+        ^
+SyntaxError: invalid syntax
+>>> pip install numpy[K[K[K[K[Kpython3-numpy
+  File "<stdin>", line 1
+    pip install python3-numpy
+        ^
+SyntaxError: invalid syntax
+>>> pip install python3-numpyp[1@3 
+  File "<stdin>", line 1
+    pip3 install python3-numpy
+         ^
+SyntaxError: invalid syntax
+>>> pip install prettytable
+  File "<stdin>", line 1
+    pip install prettytable
+        ^
+SyntaxError: invalid syntax
+>>> pip install prettytable[1@3 
+  File "<stdin>", line 1
+    pip3 install prettytable
+         ^
+SyntaxError: invalid syntax
+>>> cd[K[Kpip3 -v
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pip3' is not defined
+>>> pip3 -v -v[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pip' is not defined
+>>> 
