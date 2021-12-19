@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>рк2</title>
+</head>
+<body class="container" style="display: flex;justify-content: space-around;">
+    <form method="POST" action="create_emp/">
+        {% csrf_token %}
+
+        <h2>Добавление нового сотрудника</h2>
+        <p>
+            <label>Введите фамилию сотрудника</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Введите зарплату</label><br>
+            <input type="text" name="sallary" />
+        </p>
+        <p>
+            <label>Введите название отдела</label><br>
+            <input type="text" name="departmentID"/>
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+
+    <form method="POST" action="create/">
+        {% csrf_token %}
+
+        <h2>Добавление нового отдела</h2>
+        <p>
+            <label>Введите название отдела</label><br>
+            <input type="text" name="name_department" />
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+    <div> 
+        <h2>Список отделов</h2>
+        <table>
+            <tr>
+                
+                <th>Название</th>
+            </tr>
+            {% for department in departments %}
+            <tr>
+                <td>{{ department.name }}</td>
+                <td><a href="edit_department/{{department.id}}">Изменить</a> | <a href="delete_department/{{department.id}}">Удалить</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+
+
+        {% if emps.count > 0 %}
+        <h2>Список сотрудников</h2>
+        <table>
+            <tr>
+
+                <th>Фамилия</th>
+                <th>Зарплата</th>
+                <th>Отдел</th>
+            </tr>
+            {% for emp in emps %}
+            <tr>
+
+                <td>{{ emp.name }}</td>
+                <td>{{ emp.sallary }}</td>
+                <td>{{ emp.departmentID.name }}</td>
+                <td><a href="edit/{{emp.id}}">Изменить</a> | <a href="delete/{{emp.id}}">Удалить</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+            {% endif %}
+
+        {% for department in departments %}
+            <h3>сотрудники в отделе {{ department.name }}:</h3>
+            {% for emp in emps %}
+                {% if department.name == emp.departmentID.name %}
+                <li>{{emp.name}}</li>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</body>
+</html>

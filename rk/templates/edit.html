@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>edit disk</title>
+</head>
+<body class="container">
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Введите фамилию сотрудника</label><br>
+            <input type="text" name="name" value="{{disk.name}}" />
+        </p>
+        <p>
+            <label>Введите зарплату</label><br>
+            <input type="text" name="sallary" value="{{disk.sallary}}" />
+        </p>
+        <p>
+            <label>Введите название отдела</label><br>
+            <input type="text" name="departmentID" value="{{disk.departmentID.name}}" />
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>
